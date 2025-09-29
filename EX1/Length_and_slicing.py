@@ -1,0 +1,5 @@
+a = input('Please type in the first line of your favourite song:')
+print('The length of the line is',len(a),'.\n')
+c = int(input('Give me a starting number:'))
+d = int(input('Then give me an ending number:'))
+print('Cut out sections:'+a[c-1:d])
